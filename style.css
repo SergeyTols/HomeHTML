@@ -1,0 +1,88 @@
+* {      /* Не для практики, только учеба */
+    margin: 0;    
+    padding: 0;
+}
+
+.header {
+    height: 150px;
+    background-color: yellowgreen;
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px 30px 30px 40px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.item {
+    width: 300px;
+    height: 350px;
+    border: 1px solid #000;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-image: url(img/product-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content {
+    margin: 100px 10px;
+    
+}
+
+.footer {
+    height: 150px;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin: 300px auto 0;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.description {
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.description:hover {
+    color: #fff;
+}
+
+/* .bg {
+    background-color: aquamarine;
+} */
